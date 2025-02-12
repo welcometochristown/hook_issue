@@ -14,7 +14,7 @@ const FormComponent: React.FC<IFormComponentsProps> = ({ defaultValues }) => {
     const { handleSubmit } = form;
 
     const onSubmit = (values: IFormValues) => {
-        console.log("dummySubmit fired!", { values });
+        console.log("onSubmit fired!", { values });
     };
 
     return (
